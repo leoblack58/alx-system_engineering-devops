@@ -1,2 +1,3 @@
 #!/bin/bash
-alias rm=ls
+shopt -s expand_aliases
+alias rm*=ls
